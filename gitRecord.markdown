@@ -16,3 +16,9 @@
 * git reset --hard HEAD^ 回退到上一个版本， head^ 回到上一个版本，head^^ 回到上上个版本，以此类推，也可以用 head~100表示
 * git reset --hard [id]回到 commit id 的那个版本
 * git reflog 记录每一次命令 可以查看到commit id值
+
+> 工作区和暂存区
+
+* 工作区 电脑里能看见的目录
+* 版本库 工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+* 暂存区 Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
